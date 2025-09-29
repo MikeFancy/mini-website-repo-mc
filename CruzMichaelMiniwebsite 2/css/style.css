@@ -1,0 +1,629 @@
+body {
+    background-color: #B89879;
+    scroll-behavior: auto;
+}
+
+nav {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.signinbutton {
+    background-color: #519dc2;
+    border: 2px solid white;
+    color: white;
+    padding: 10x 27px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: right;
+    position: relative;
+    top: 40px;
+}
+
+li a {
+    display: inline;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: normal;
+    color: white;
+}
+
+li a:hover {
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 220px;
+    height: 220px;
+    position: relative;
+    bottom: 19px;
+}
+
+h1 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 170px;
+    font-optical-sizing: auto;
+    position: relative;
+    bottom: 180px;
+    color: white;
+}
+
+h2 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 30px;
+    font-optical-sizing: auto;
+    position: relative;
+    bottom: 300px;
+    left: 10px;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    margin: 0;
+    color: white;
+}
+
+h3 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 100px;
+    font-optical-sizing: auto;
+    position: absolute;
+    bottom: 370px;
+    left: 580px;
+    color: white;
+}
+
+h4 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 100px;
+    font-optical-sizing: auto;
+    position: absolute;
+    left: 200px;
+    bottom: 320px;
+    color: white;
+}
+
+h5 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 100px;
+    font-optical-sizing: auto;
+    position: absolute;
+    left: 950px;
+    bottom: 295px;
+    color: white;
+}
+
+hr {
+    position: relative;
+    bottom: 120px;
+    border: 2px solid white;
+    width: 1420px;
+}
+
+
+
+/*
+The css and code below are inspired from this cited source
+https://www.w3schools.com/howto/howto_css_image_gallery.asp
+Code: (HTML and CSS)
+*/
+.slider-container {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 9rem;
+    position: relative;
+    bottom: 550px;
+    left: 320px;
+}
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: grey;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+    position: relative;
+}
+
+.slide-nav a:hover {
+    opacity: 1;
+}
+/*
+The code above is the end of the code cited source
+*/
+
+
+
+
+.menubox {
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: none;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 320px;
+    left: 950px;
+}
+
+.menubox2 {
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: none;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 310px;
+    left: 950px;
+}
+
+.menubox3 {
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: none;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 300px;
+    left: 950px;
+}
+
+.storebox {
+    width: 350px;
+    height: 400px;
+    border: 3px solid white;
+    background-color: none;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    border-radius: 30px;
+    background-color: #e2e4e3;
+}
+
+.storeboxPRICE {
+    border: 3px solid white;
+    background-color: #3c718b;
+    padding: 10px 50px;
+    margin: 30px;
+    position: relative;
+    top: 300px;
+    left: 35px;
+    border-radius: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+.storeboxQUANTITY {
+    border: 3px solid white;
+    background-color: none;
+    padding: 10px 30px;
+    margin: 30px;
+    position: relative;
+    top: 200px;
+    left: 5px;
+    border-radius: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    color: black;
+}
+
+.storebox2 {
+    width: 350px;
+    height: 400px;
+    border: 3px solid white;
+    background-color: none;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 400px;
+    left: 500px;
+    border-radius: 30px;
+    background-color: #ffdfa9;
+}
+
+.storeboxPRICE2 {
+    border: 3px solid white;
+    background-color: #3c718b;
+    padding: 10px 50px;
+    margin: 30px;
+    position: relative;
+    top: 300px;
+    left: 35px;
+    border-radius: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+.storeboxQUANTITY2 {
+    border: 3px solid white;
+    background-color: none;
+    padding: 10px 30px;
+    margin: 30px;
+    position: relative;
+    top: 200px;
+    left: 5px;
+    border-radius: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    color: black;
+}
+
+.storebox3 {
+    width: 350px;
+    height: 400px;
+    border: 3px solid white;
+    background-color: none;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 830px;
+    left: 955px;
+    border-radius: 30px;
+    background-color: #7aaaaa;
+}
+
+.storeboxPRICE3 {
+    border: 3px solid white;
+    background-color: #3c718b;
+    padding: 10px 50px;
+    margin: 30px;
+    position: relative;
+    top: 300px;
+    left: 38px;
+    border-radius: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+.storeboxQUANTITY3 {
+    border: 3px solid white;
+    background-color: none;
+    padding: 10px 30px;
+    margin: 30px;
+    position: relative;
+    top: 200px;
+    left: 5px;
+    border-radius: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+.reviewbox {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: none;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 573px;
+    left: 1000px;
+}
+
+.reviewbox2 {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: none;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 507px;
+    left: 100px;
+}
+
+.abouttextbox {
+    width: 700px;
+    height: 430px;
+    border: 3px solid white;
+    background-color: none;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    top: 20px;
+    left: 318px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 23px;
+    font-optical-sizing: auto;
+    border-radius: 30px;
+}
+
+.aboutimagebox {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    background-color: #C4BCBC;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 460px;
+    left: 50px;
+    border-radius: 30px;
+}
+
+.aboutimagebox2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    background-color: #c4bcbc;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 975px;
+    left: 1088px;
+    border-radius: 30px;
+}
+
+#line {
+    border-left: 4px solid white;
+    height: 615px;
+    position: absolute;
+    left: 720px;
+    bottom: 10px;
+}
+
+.loginbox {
+    width: 280px;
+    height: 8px;
+    border: 2px solid black;
+    background-color: none;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    top: 75px;
+    left: 230px;
+}
+
+.loginbox2 {
+    width: 240px;
+    height: 8px;
+    border: 2px solid black;
+    background-color: none;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    left: 270px;
+    top: 100px;
+}
+
+.nameemail {
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    position: absolute;
+    bottom: 360px;
+    left: 180px;
+    color: white;
+}
+
+.password {
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    position: absolute;
+    bottom: 254px;
+    left: 180px;
+    color: white;
+}
+
+.orderbox {
+    width: 400px;
+    height: 400px;
+    border: 2px solid white;
+    background-color: none;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    left: 835px;
+    bottom: 120px;
+    border-radius: 30px;
+    background-color: #7A5D3D;
+}
+
+.confirmationbutton {
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    padding: 10px 40px;
+    border: 2px solid white;
+    border-radius: 30px;
+    position: relative;
+    top: 300px;
+    left: 80px;
+    color: white;
+    background-color: #519dc2;
+}
+
+.pricebutton {
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    padding: 10px 40px;
+    border: 2px solid white;
+    border-radius: 30px;
+    position: relative;
+    top: 200px;
+    left: 80px;
+    color: white
+}
+
+.instagrampos {
+    position: absolute;
+    bottom: 60px;
+    left: 90px;
+}
+
+.instagrampos a:hover {
+    opacity: 60%;
+}
+
+.yelpicon {
+    position: absolute;
+    bottom: 60px;
+    left: 180px;
+}
+
+.yelpicon a:hover {
+    opacity: 60%;
+}
+
+.comments {
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 10px;
+    font-optical-sizing: auto;
+}
+
+.picturecomments {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 532px;
+    left: 55px;
+    border-radius: 30px;
+}
+
+.picturecomments2 {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 1045px;
+    left: 1100px;
+    border-radius: 30px;
+}
+
+.coffeegrounds {
+    position: relative;
+    left: 15px;
+    bottom: 25px;
+}
+
+.cafe101pods {
+    position: relative;
+    left: 20px;
+    bottom: 30px;
+}
+
+.cafe101mug {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+
+.slider-container-order {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    max-width: 20rem;
+    margin: 0 auto;
+}
