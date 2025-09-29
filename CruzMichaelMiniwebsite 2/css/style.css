@@ -1,6 +1,7 @@
 body {
     background-color: #B89879;
     scroll-behavior: auto;
+    overflow: auto;
 }
 
 nav {
@@ -15,7 +16,7 @@ nav {
     background-color: #519dc2;
     border: 2px solid white;
     color: white;
-    padding: 10x 27px;
+    padding: 10px 27px;
     border-radius: 20px;
     text-align: center;
     text-decoration: none;
