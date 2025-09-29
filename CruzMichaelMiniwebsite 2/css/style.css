@@ -167,17 +167,6 @@ Code: (HTML and CSS)
     object-fit: cover;
 }
 
-
-.slider-nav a{
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
-    background-color: grey;
-    opacity: 0.75;
-    transition: opacity ease 250ms;
-    position: relative;
-}
-
 .slide-nav a:hover {
     opacity: 1;
 }
