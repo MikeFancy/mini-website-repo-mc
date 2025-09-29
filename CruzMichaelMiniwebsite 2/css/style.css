@@ -65,8 +65,8 @@ a {
 }
 
 h1 {
-    font-family: "Manrope", sans-serif;
-    font-weight: 300;
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
     font-style: normal;
     font-size: 170px;
     font-optical-sizing: auto;
@@ -93,7 +93,7 @@ h2 {
 }
 
 h3 {
-    font-family: "Manrope", sans-serif;
+    font-family: "DM Serif Display", serif;
     font-weight: 200;
     font-style: normal;
     font-size: 100px;
