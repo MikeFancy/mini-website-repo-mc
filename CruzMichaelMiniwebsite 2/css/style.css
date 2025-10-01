@@ -28,6 +28,10 @@ nav {
     bottom: 15px;
 }
 
+.signinbutton:hover {
+    opacity: 40%;
+}
+
 ul {
     list-style-type: none;
 }
@@ -248,6 +252,10 @@ The code above is the end of the code cited source
     color: white;
 }
 
+.storeboxPRICE:hover {
+    opacity: 40%;
+}
+
 
 .storeboxQUANTITY {
     border: 3px solid white;
@@ -266,8 +274,8 @@ The code above is the end of the code cited source
     color: black;
 }
 
-.storeboxQUANTITY a:hover {
-    color: grey;
+.storeboxQUANTITY:hover {
+    opacity: 40%;
 }
 
 .storebox2 {
@@ -302,6 +310,10 @@ The code above is the end of the code cited source
     color: white;
 }
 
+.storeboxPRICE2:hover {
+    opacity: 40%;
+}
+
 .storeboxQUANTITY2 {
     border: 3px solid white;
     background-color: none;
@@ -317,6 +329,10 @@ The code above is the end of the code cited source
     font-size: 20px;
     font-optical-sizing: auto;
     color: black;
+}
+
+.storeboxQUANTITY2:hover {
+    opacity: 40%;
 }
 
 .storebox3 {
@@ -351,6 +367,10 @@ The code above is the end of the code cited source
     color: white;
 }
 
+.storeboxPRICE3:hover {
+    opacity: 40%;
+}
+
 .storeboxQUANTITY3 {
     border: 3px solid white;
     background-color: none;
@@ -366,6 +386,10 @@ The code above is the end of the code cited source
     font-size: 20px;
     font-optical-sizing: auto;
     color: black;
+}
+
+.storeboxQUANTITY3:hover {
+    opacity: 40%;
 }
 
 .reviewbox {
@@ -530,6 +554,10 @@ The code above is the end of the code cited source
     background-color: #519dc2;
 }
 
+.confirmationbutton:hover {
+    color: grey;
+}
+
 .pricebutton {
     font-family: "Manrope", sans-serif;
     font-weight: 200;
@@ -543,6 +571,10 @@ The code above is the end of the code cited source
     top: 200px;
     left: 80px;
     color: white
+}
+
+.pricebutton:hover {
+    color: grey;
 }
 
 .instagrampos {
@@ -621,4 +653,23 @@ The code above is the end of the code cited source
     left: 25px;
     max-width: 20rem;
     margin: 0 auto;
+}
+
+.confirm {
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    position: absolute;
+    top: 550px;
+    left: 320px;
+    border: 2px solid white;
+    padding: 12px;
+    border-radius: 20px;
+    color: white;
+    background-color: #236E22;
+}
+
+.confirm:hover {
+    color: grey;
 }
